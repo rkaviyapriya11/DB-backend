@@ -6,7 +6,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 
 const corsorigin = {
-    origin: 'https://database-mern.vercel.app'
+    origin: 'https://db-backend-mlt8.onrender.com '
 }
 
 app.use(cors(corsorigin))
